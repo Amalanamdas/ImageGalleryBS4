@@ -1,0 +1,29 @@
+nav {
+  background: #2c3e50;
+}
+body {
+  padding: 70px;
+  /*text: #ecf0f1;*/
+}
+.img-thumbnail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transfrom .5s;
+}
+.jumbotron {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+.navbar-dark .navbar-brand {
+  color: white;
+}
+.active:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+  color: #white;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+}
